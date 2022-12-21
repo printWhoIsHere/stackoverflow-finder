@@ -1,10 +1,10 @@
 # Getting Started with   StackOverflow Finder
 
-##Скачиваем пакетный менеджер yarn
-    ### `npm install -g yarn`
+### Скачиваем пакетный менеджер yarn:
+`npm install -g yarn`
 
-##Cкачиваем все нужные зависимости проекта
-    ### `yarn`
+### Cкачиваем все нужные зависимости проекта:
+`yarn`
 
-##Запускаем проект
-    ### `yarn start`
+### Запускаем проект:
+`yarn start`
