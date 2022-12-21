@@ -1,0 +1,62 @@
+* {
+	font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+		sans-serif;
+	text-align: left;
+ }
+ 
+html, body {
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	-webkit-text-size-adjust: 100%;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	font-family: Fira Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-feature-settings: normal;
+}
+
+h1 {
+ 	margin: 0;
+ 	color: #f66a60;
+ 	font-size: 3em;
+ 	font-weight: 700;
+ 	line-height: 1;
+}
+
+p {
+	color: #64748b;
+	font-size: 1.25rem;
+}
+
+button {
+	margin: 0 5px;
+	background: linear-gradient(to bottom right, #ef4765, #ff9a5a);
+	border: 0;
+	border-radius: 12px;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 100%;
+	font-weight: 500;
+	line-height: 2.5;
+	outline: transparent;
+	padding: 0 1rem;
+	text-align: center;
+	text-decoration: none;
+	transition: box-shadow 0.2s ease-in-out;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	white-space: nowrap;
+}
+
+button:not([disabled]):focus {
+	box-shadow: #808080, -0.125rem -0.125rem 1rem #f7a3b2,
+		0.125rem 0.125rem 1rem #ffcdad;
+}
+
+button:not([disabled]):hover {
+	box-shadow: 0 0 0.25rem #808080, -0.125rem -0.125rem 1rem #f7a3b2,
+		0.125rem 0.125rem 1rem #ffcdad;
+}
